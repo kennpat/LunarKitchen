@@ -9,7 +9,7 @@
 <h2>Ingredients</h2>
 <ul>
   <% @recipe.ingredients.each do |ingredient| %>
-    <li><%= ingredient.name %></li>
+    <li><%= ingredient['ingredients'] %></li>
   <% end %>
 </ul>
 

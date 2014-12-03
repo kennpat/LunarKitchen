@@ -15,6 +15,7 @@ end
 
 get '/recipes' do
   @recipes = Recipe.all
+  # binding.pry
   erb :'recipes/index'
 end
 
