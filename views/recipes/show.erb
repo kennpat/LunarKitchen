@@ -11,8 +11,7 @@
 <h2>Ingredients</h2>
 <ul>
   <% @recipe.each do |ingredient| %>
-  	<% binding.pry %>
-    <li><%= ingredient['ingredients'] %></li>
+  	<li><%= ingredient['ingredients'] %></li>
   <% end %>
 </ul>
 

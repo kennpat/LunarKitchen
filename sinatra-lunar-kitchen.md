@@ -1,4 +1,4 @@
-The Lunar Kitchen application is broken. You're given the skeleton of a Sinatra app that includes some HTML/CSS and some of the basic code. Your job is to get the app to a working state **without modifying the `server.rb` file.**
+buThe Lunar Kitchen application is broken. You're given the skeleton of a Sinatra app that includes some HTML/CSS and some of the basic code. Your job is to get the app to a working state **without modifying the `server.rb` file.**
 
 ### Instructions
 
