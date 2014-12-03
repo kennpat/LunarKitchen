@@ -1,14 +1,17 @@
-<h1><%= @recipe.name %></h1>
+
+
+<h1><%= @recipe[0]['name'] %></h1>
 
 <h3>Description</h3>
-<p><%= @recipe.description %></p>
+<p><%= @recipe[0]['description'] %></p>
 
 <h3>Instructions</h3>
-<p><%= @recipe.instructions %></p>
+<p><%= @recipe[0]['instructions'] %></p>
 
 <h2>Ingredients</h2>
 <ul>
-  <% @recipe.ingredients.each do |ingredient| %>
+  <% @recipe.each do |ingredient| %>
+  	<% binding.pry %>
     <li><%= ingredient['ingredients'] %></li>
   <% end %>
 </ul>
